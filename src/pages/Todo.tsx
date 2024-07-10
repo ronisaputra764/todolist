@@ -5,7 +5,7 @@ import ITodo from "../interfaces/ITodo"
 
 export default function Todo() {
 
-    const [done, setDone] = useState<number>(0)
+    const [done, ] = useState<number>()
     const [todos, setTodos] = useState<ITodo[]>([])
 
     const handleChecked = (item:ITodo) => {

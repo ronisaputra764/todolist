@@ -3,8 +3,9 @@ import { Input, Button } from "@chakra-ui/react"
 import ITodo from "../interfaces/ITodo"
 
 interface ITodoForm {
-    setTodos: () => void,
-    todos: ITodo[]
+    setTodos: any,
+    todos: ITodo[],
+    done: any
 }
 
 export default function TodoForm(props: ITodoForm) {
